@@ -315,7 +315,7 @@ main {
     padding: 9px 12px;
 }
 .package__item:nth-child(2):before {
-    content:'';
+    content:;
     position: absolute;
     top: -12px;
     left: calc(50% - (95px / 2));
