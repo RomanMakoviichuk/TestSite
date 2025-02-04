@@ -315,7 +315,7 @@ main {
     padding: 9px 12px;
 }
 .package__item:nth-child(2):before {
-    content:;
+    content:'';
     position: absolute;
     top: -12px;
     left: calc(50% - (95px / 2));
@@ -697,21 +697,31 @@ label {
     border: 1px solid #D0D5DD;
     background: #fff;
     display: flex;
-    gap: 24px;
+    gap: 15px;
     overflow: hidden;
+    align-items: center;
     display: flex;
     align-items: center;
-    max-height: 80px;
+    height: 100%;
+    overflow: hidden;
 }
 .benefits__ico {
-    max-width: 122px;
+    display: flex;
+    align-items: center;
+    width: 120px;
     height: 100%;
+}
+.benefits__ico img {
+    max-width: 80px;
+    height: 85px;
     object-fit: cover;
 }
 .benefits__text {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding: 5px 5px 5px 0;
+
 }
 .benefits__title {
     font-family: 'Bebas Neue', sans-serif;
@@ -1423,6 +1433,9 @@ video {
     }
     .comparison__items {
         padding: 0 5px;
+    }
+    .benefits__text {
+        font-size: 14px;
     }
 }
 
