@@ -1157,6 +1157,16 @@ flex: 1;
     padding-bottom: 10px;
     cursor: pointer;
 }
+.faq-item__title span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.faq-item__title img {
+    width: 26px;
+    height: auto;
+}
 .faq-item__title span:first-child {
     font-family: 'Open Sans', sans-serif;
     color: #101828;
