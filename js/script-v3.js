@@ -145,13 +145,6 @@ function handleRadioButtonChange(radioButton) {
   let oldPrice = getPrice(radioButton.parentElement, '.package-old-price');
 
 
-  if (Number(selectedPackage) === 1) {
-    actualPrice *= 1;
-  } else if (Number(selectedPackage) === 2) {
-    actualPrice *= 2;
-  } else if (Number(selectedPackage) === 3) {
-    actualPrice *= 3;
-  }
   // update old and actual price , and discount based on the selected element
   totalNewPrice.textContent = formatPrice(actualPrice);
 
